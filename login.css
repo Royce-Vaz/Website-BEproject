@@ -1,0 +1,52 @@
+   body {
+       background-image: url("images/collegepic.webp.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height: 100vh;
+       filter: drop-shadow(10%);
+       size-adjust: 100%;
+       margin: 0;
+       background-attachment: fixed;
+       /* Add this line to make the background image fixed */
+   }
+
+
+   /* this is for alert message  */
+   .alert {
+       margin-top: 20px;
+   }
+
+   .login {
+       width: fit-content;
+       height: fit-content;
+       margin: 0 auto;
+       padding: 10px;
+       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       /* Add this line to move the container to the left */
+       border-radius: 6px;
+       background-color: #e3e3e391;
+       backdrop-filter: blur(10px);
+   }
+
+   .form-group {
+       margin-bottom: 8px;
+   }
+
+   .container {
+       width: 500px;
+       height: fit-content;
+       margin: 0 auto;
+       padding: 20px;
+       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       /* Add this line to move the container to the left */
+       position: center;
+       margin-top: 250px;
+       border-radius: 6px;
+       background-color: #e3e3e3cb;
+       backdrop-filter: blur(10px);
+   }
+
+   #overlay.show {
+       background-color: rgba(255, 255, 255, 0.536);
+   }
